@@ -1,0 +1,83 @@
+// 自動生成されたコードです。変更しないでください。
+namespace myTiles {
+    //% fixedInstance jres blockIdentity=images._tile
+    export const transparency16 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile1 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile2 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile3 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile4 = image.ofBuffer(hex``);
+
+    helpers._registerFactory("tilemap", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+            case "レベル2":
+            case "レベル2":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16], TileScale.Sixteen);
+            case "レベル1":
+            case "レベル1":return tiles.createTilemap(hex`1900190001020202020202020202020202020202020202030000000000080d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0e000000000008270d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0e0000000000080d0d0d0d0d090f060606060606060606060d05000000000008230d0d0d0d0401131313131313130320100d040000000000070606060606050d0d0d0d0d0d0d0d0420100d040000000000080d0d0d0d0d0d0d0d0d0d0d0d0d0d1220100d040000000000080d0d0d0d0d230d090f0f0f0f0a0d1220100d040000000000080d0d0d090a0d0d04161d1d14080d0b110c0d040000000000080d0d0d04080d0d04151e1e18080d0d0d0d0d04000000000008270d0d04070f0f05151e2218080d0d0d0d0d040000000000080d0d0d041f1f161b1c1e1e18070f0f0f0a0d040000000000080d0d0d041f1f251e1e1e1e15181f1f1f080d040000000000080d0d0d041f1f251e231e1e15181f1f21080d040000000000080d0d0d041f1f171a1a1a1a19181f1f1f080d040000000000080d230d261f01110202020202020202020c0d040000000000080d0d0d261f080d270d0d0d0d0d0d0d0d0d0d040000000000080d0d0d041f080d240d230d0d0d0d230d0d0d040000000000080d0d0d0b110c0d0d0d0d0d0d0d0d0d0d0d0d04000000000007060606060f0f0f0f0f0f0f0f0f0f0f0f0f0f05000000000028292929292929292929292929292929292929292c00000000180d0d0d0d0d0d0d0d0d2d0d0d0d0d0d0d0d0d2b1500000000182f0d0d0d0d0d0d0d0d2e0d0d0d0d0d0d0d0d0d15000000002a1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1c0000000000000000000000000000000000000000000000000000000000`, img`
+22222222222222222222.....
+2..................2.....
+2..................2.....
+2.....222222222222.2.....
+2.....2222222222.2.2.....
+2222222........2.2.2.....
+2..............2.2.2.....
+2.......222222.2.2.2.....
+2...22..222222.222.2.....
+2...22..22..22.....2.....
+2...222222..22.....2.....
+2...2..222..222222.2.....
+2...2.......22...2.2.....
+2...2.......22...2.2.....
+2...2..2222222...2.2.....
+2...2.222222222222.2.....
+2...2.2............2.....
+2...2.2.2..........2.....
+2...222............2.....
+22222222222222222222.....
+222222222222222222222....
+2...................2....
+2...................2....
+222222222222222222222....
+.........................
+`, [myTiles.transparency16,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterWest1,sprites.dungeon.greenInnerNorthWest,sprites.dungeon.greenInnerNorthEast,sprites.dungeon.greenInnerSouthWest,sprites.dungeon.greenInnerSouthEast,sprites.dungeon.floorLight2,sprites.dungeon.greenOuterEast1,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenOuterWest0,sprites.dungeon.greenOuterNorth2,sprites.dungeon.greenOuterEast2,sprites.dungeon.greenOuterNorth1,sprites.dungeon.purpleInnerNorthEast,sprites.dungeon.purpleOuterEast0,sprites.dungeon.purpleInnerNorthWest,sprites.dungeon.purpleInnerSouthWest,sprites.dungeon.purpleOuterWest0,sprites.dungeon.purpleInnerSouthEast,sprites.dungeon.purpleOuterNorth1,sprites.dungeon.purpleOuterSouth0,sprites.dungeon.purpleOuterSouthWest,sprites.dungeon.purpleOuterSouth1,sprites.dungeon.floorMixed,sprites.dungeon.floorLightMoss,sprites.dungeon.floorDark0,sprites.dungeon.stairLadder,sprites.dungeon.chestClosed,sprites.dungeon.collectibleInsignia,sprites.dungeon.collectibleRedCrystal,sprites.dungeon.stairWest,myTiles.tile3,sprites.dungeon.floorDarkDiamond,sprites.dungeon.purpleOuterNorthWest,sprites.dungeon.purpleOuterNorth0,sprites.dungeon.purpleOuterSouthEast,sprites.dungeon.stairLarge,sprites.dungeon.purpleOuterNorthEast,sprites.dungeon.doorClosedNorth,sprites.dungeon.doorClosedSouth,myTiles.tile4], TileScale.Sixteen);
+        }
+        return null;
+    })
+
+    helpers._registerFactory("tile", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+            case "transparency16":return transparency16;
+            case "myTile":
+            case "tile1":return tile1;
+            case "myTile0":
+            case "tile2":return tile2;
+            case "myTile1":
+            case "tile3":return tile3;
+            case "myTile2":
+            case "tile4":return tile4;
+        }
+        return null;
+    })
+
+}
+// 自動生成されたコードです。変更しないでください。
